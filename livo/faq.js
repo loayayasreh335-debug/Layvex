@@ -35,13 +35,17 @@ E('projects','excited','شو مشاريع لايفكس؟','What are LAYVEX proje
 'مشاريع|مشاريعكم|شو عندكم|منتجات|خدمات|projects|products|services|what do you have',
 [['ask','سوقنا','Sooqna','sooqna'],['ask','دورنا','Dawrna','dawrna'],['ask','عالمنا','Alamna','alamna'],['ask','وصلنا','Wassalna','wassalna']]);
 E('available','happy','أي مشروع متاح هلا؟','Which project is available now?',
-'سوقنا ودورنا متاحين هلا. عالمنا نسخة تجريبية (DEMO)، ووصلنا لسا فكرة قيد التخطيط.',
-'Sooqna and Dawrna are available now. Alamna is a demo version, and Wassalna is still an idea in planning.',
+'سوقنا ودورنا متاحين هلا، وبسوقنا كمان مدينة لايفكس التفاعلية. عالمنا نسخة تجريبية (DEMO)، ووصلنا لسا فكرة قيد التخطيط.',
+'Sooqna and Dawrna are available now, and Sooqna also has the interactive Layvex City. Alamna is a demo version, and Wassalna is still an idea in planning.',
 'متاح|متاحة|شغال|شغالة|جاهز|available|live|ready|working',[['go','خارطة الطريق','Roadmap','roadmap']]);
 E('sooqna','happy','شو هو سوقنا؟','What is Sooqna?',
 'منصة لتبادل وبيع الأغراض بين طلاب الجامعات بالأردن. فيها استثمار ومشاريع ناشئة، تبرعات، تبرع بالدم، وسوق ذكي بيفاوض عنك وبيعطيك أفضل ٣ عروض قريبة من نيتك.',
 'A platform for swapping and selling items among university students in Jordan. It includes investment and startups, donations, blood donation, and a smart market that negotiates for you and shows your best 3 nearby offers.',
 'سوقنا|سوق|بيع|تبادل|تبرع|تبرع بالدم|sooqna|souqna|market|barter|donation|blood',[['link','افتح سوقنا','Open Sooqna','https://sooqna.onrender.com']]);
+E('city','excited','شو هي مدينة لايفكس؟','What is Layvex City?',
+'مدينة تفاعلية جوّا سوقنا! كل مستخدم بيصير إله بيت بمحافظته، وبيكبر ويحلو كل ما نشطت أكثر، من خيمة لحد فيلا. فيها معالم المحافظات وجامعاتها ومتاجرها، وبتتصفح إعلانات الناس من جواها، وبتلعب وبتجمع نجوم وجوائز. افتح سوقنا وجرّبها!',
+'An interactive city inside Sooqna! Every user gets a house in their governorate that grows and gets nicer the more active you are, from a tent up to a villa. It has the landmarks, universities and shops of the governorates, you can browse ads from inside it, play, and collect stars and prizes. Open Sooqna and try it!',
+'مدينة لايفكس|مدينة|المدينة|بيتي|بيت|محافظة|معالم|جواز سفر|نجوم|city|layvex city|house|governorate|landmarks|passport|stars',[['link','افتح سوقنا','Open Sooqna','https://sooqna.onrender.com']]);
 E('dawrna','excited','شو هي دورنا؟','What is Dawrna?',
 'منصة ذكية لإدارة الحجوزات وتنظيم الأدوار للصالونات والجيمات والخدمات المحلية. عند الحلاقين بتختار الحلاق اللي بدك إياه وبتحجز دورك رقمياً. وبالجيمات الاشتراك رقمي بدل الورقي، والجيم بيشوف مشتركيه وكم باقي من مدة اشتراكهم. وللمتجر لوحة تحكم كاملة وإشعارات تلقائية للزبائن وتحديد المواقع عبر الخرائط، مع خصومات وعروض حصرية من شبكة لايفكس. ولسا شغالين على أنواع متاجر أكثر.',
 'A smart platform for managing bookings and organizing queues for salons, gyms and local services. At barbers you pick the barber you want and book your turn digitally. At gyms, subscriptions are digital instead of paper, and the gym sees its members and how much time each has left. Shops get a full dashboard, automatic customer notifications and map-based locations, with exclusive discounts and offers from the LAYVEX network. We are working on more types of shops.',
@@ -142,7 +146,7 @@ window.LIVO_FAQ={
   acts:M([['wa','واتساب','WhatsApp','مرحباً، عندي سؤال لليفو ما قدر يجاوبه']])},
  cats:[
   {t:{ar:'عن لايفكس',en:'About LAYVEX'},ids:['about','founder','vision','livo','levelup']},
-  {t:{ar:'المشاريع',en:'Projects'},ids:['projects','available','sooqna','dawrna','alamna','wassalna']},
+  {t:{ar:'المشاريع',en:'Projects'},ids:['projects','available','sooqna','city','dawrna','alamna','wassalna']},
   {t:{ar:'تواصل وشراكات',en:'Contact and partners'},ids:['contact','partner','investor','incubator','deck','partners']},
   {t:{ar:'الموقع',en:'The site'},ids:['site','lang','game','share','ideas','privacy']},
   {t:{ar:'المبادرة والفعاليات',en:'Initiative and events'},ids:['initiative','umbrella','events','host','isai']}
